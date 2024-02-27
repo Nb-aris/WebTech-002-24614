@@ -50,12 +50,12 @@ public class AdmissionServlet extends HttpServlet {
                         String fileName = item.getName();
                         long sizeInBytes = item.getSize();
 
-                        // Use item.getInputStream() to read the file's content
+                        
                     } else {
-                        // Process regular form field (input type="text|radio|checkbox|etc", here).
+                        
                         String fieldName = item.getFieldName();
                         String fieldValue = item.getString();
-                        // Handle form fields like student_name and course
+                        
                     }
                 }
             } catch (Exception e) {
